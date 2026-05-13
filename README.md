@@ -43,11 +43,11 @@
    DB_CONNECTION=sqlite
    # ลบบรรทัด DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD ทิ้งไปเลย
 
-จากนั้นทำการรัน Migration เพื่อสร้างตารางในฐานข้อมูล
-    ```bash
-    php artisan migrate
+6. **จากนั้นทำการรัน Migration เพื่อสร้างตารางในฐานข้อมูล**
+   ```bash
+   php artisan migrate
 
-6. **เปิดใช้งานเซิร์ฟเวอร์จำลอง (Run the application)**
+7. **เปิดใช้งานเซิร์ฟเวอร์จำลอง (Run the application)**
    ```bash
    php artisan serve
 
