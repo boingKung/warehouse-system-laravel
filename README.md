@@ -19,8 +19,8 @@
 
 1. **โคลนโปรเจกต์ (Clone the repository)**
    ```bash
-   git clone <URL-ของ-Repository-นี้>
-   cd <ชื่อโฟลเดอร์โปรเจกต์>
+   git clone https://github.com/boingKung/warehouse-system-laravel.git
+   cd warehouse-system-laravel
 
 2. **ติดตั้งไลบรารีของ PHP (Install PHP Dependencies)**
    ```bash
@@ -43,9 +43,9 @@
    DB_CONNECTION=sqlite
    # ลบบรรทัด DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD ทิ้งไปเลย
 
-   จากนั้นทำการรัน Migration เพื่อสร้างตารางในฐานข้อมูล
-   ```bash
-   php artisan migrate
+จากนั้นทำการรัน Migration เพื่อสร้างตารางในฐานข้อมูล
+    ```bash
+    php artisan migrate
 
 6. **เปิดใช้งานเซิร์ฟเวอร์จำลอง (Run the application)**
    ```bash
